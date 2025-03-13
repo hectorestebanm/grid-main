@@ -234,7 +234,7 @@ body
         display: grid;
         gap: 20px;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 220px 18px 107px 215px;
+        grid-template-rows: 220px 40px 107px 215px;
     }
     .bloque_1
     {
