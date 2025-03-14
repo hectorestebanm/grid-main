@@ -234,7 +234,7 @@ body
         display: grid;
         gap: 20px;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 220px 40px 107px 215px;
+        grid-template-rows: 220px 45px 107px 215px;
     }
     .bloque_1
     {
@@ -262,6 +262,18 @@ body
         height: 100%;
         grid-column: 2 / 3;    
         grid-row: 2 / 4;
+        overflow: hidden;
+    }
+    .bloque_2_img
+    {
+        width: 145%;
+        margin: 0;
+    }
+    .bloque_2_h2
+    {
+        font-size: 23px;
+        line-height: 20px;
+        padding: 0 30px 0 10px;
     }
     .bloque_3
     {
@@ -269,7 +281,18 @@ body
         height: 100%;
         grid-column: 3 / 4;
         grid-row: 2 / 4;
-    }    
+    }
+    .bloque_3_img
+    {
+        width: 100%;
+    }
+    .bloque_3_h2
+    {
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 20px;
+        padding-right: 40px;
+    }
     .bloque_4
     {
         max-width: 100%;
